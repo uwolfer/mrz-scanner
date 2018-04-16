@@ -1,0 +1,108 @@
+/*
+ * Copyright (C) 2018 Urs Wolfer
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+@import "../node_modules/croppie/croppie.css";
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+.croppie-container .cr-viewport {
+  box-shadow: 0 0 2000px 2000px rgba(173, 173, 173, 0.5);
+}
+
+#document-display {
+  height: 100vh;
+  width: 100vw;
+}
+
+#controls {
+  margin: 10px;
+  position: absolute;
+  z-index: 2;
+}
+
+#document-content {
+  width: 400px;
+}
+
+#document-check {
+  width: 600px;
+}
+
+textarea {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+.valid {
+  border-color: #66bb6a;
+  background-color: rgba(46, 125, 50, 0.7);
+}
+
+.invalid {
+  border-color: #d84315;
+  background-color: rgba(191, 54, 12, 0.5);
+}
+
+button {
+  position: absolute;
+  z-index: 3;
+  height: 44px;
+  bottom: 10px;
+  background-color: #2196f3;
+  border-radius: 22px;
+  width: 44px;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+}
+
+#rotate {
+  right: 120px;
+}
+
+#scan {
+  right: 65px;
+  font-size: 30px;
+}
+
+#check {
+  right: 10px;
+}
+
+#progress {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 3;
+}
+
+#fileInput {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  z-index: 3;
+}

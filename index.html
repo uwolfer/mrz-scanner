@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>MRZ Scanner (Passport and ID Card)</title>
+    <meta name="theme-color" content="#006FA8"/>
+    <link rel="manifest" href="manifest.webmanifest"/>
+    <link href="favicon.ico" rel="icon" sizes="192x192"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="apple-touch-icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="./src/style.css"/>
+</head>
+<body>
+<div id="document-display">
+    <img src="#" id="document"/>
+    <div id="controls">
+        <textarea id="document-content" rows="3"></textarea>
+        <textarea id="document-check" rows="3"></textarea>
+    </div>
+    <input type="file" id="fileInput" name="fileInput" accept="image/*"/>
+    <span id="progress"></span>
+    <button id="scan" title="Scan">&#128247;</button>
+    <button id="rotate" title="Rotate">&#8630;</button>
+    <button id="check" title="Check">&#10004;</button>
+</div>
+<script src="https://cdn.rawgit.com/naptha/tesseract.js/2581b662dc91f68cd5dd1c1f6aa5fe64deacbd8c/dist/tesseract.js"></script>
+<script src="./src/index.js"></script>
+</body>
+</html>

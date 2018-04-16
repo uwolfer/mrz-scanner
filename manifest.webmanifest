@@ -1,0 +1,14 @@
+{
+  "name": "MRZ Scanner",
+  "short_name": "MRZ",
+  "icons": [{
+    "src": "./assets/512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "start_url": "./?homescreen=1",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#006FA8",
+  "theme_color": "#006FA8"
+}
