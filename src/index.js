@@ -16,7 +16,7 @@
  */
 
 import * as EXIF from "exif-js";
-import { Croppie } from "croppie";
+import Croppie from "croppie";
 import { parse } from "mrz";
 
 const TESSERACT_CONFIG = {
