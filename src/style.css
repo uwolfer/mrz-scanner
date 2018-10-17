@@ -21,6 +21,7 @@ body {
   margin: 0;
   font-family: sans-serif;
   color: white;
+  overflow: hidden;
 }
 
 .croppie-container .cr-viewport {

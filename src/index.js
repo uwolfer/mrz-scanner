@@ -54,6 +54,8 @@ window.Tesseract.recognize(
 });
 
 const croppie = new Croppie(displayArea, {
+  url:
+    "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==", // transparent 1px
   viewport: {
     width: 900,
     height: 220
@@ -105,10 +107,10 @@ const check = () => {
   try {
     const result = lines ? parse(lines) : { valid: false };
     console.log(result);
-    checkArea.innerText = JSON.stringify(result, null, 2);
+    checkArea.value = JSON.stringify(result, null, 2);
     contentArea.className = result.valid ? "valid" : "invalid";
   } catch (e) {
-    checkArea.innerText = e;
+    checkArea.value = e;
     contentArea.className = "invalid";
   }
 };
