@@ -4,10 +4,12 @@ mrz-scanner is a PWA (progressive web app) for recognizing MRZ lines
 used on ID cards and passports. All processing is done offline - no
 data for scanning will ever leave your computer.
 
+[Try it!](https://uwolfer.github.io/mrz-scanner/)
+
 
 ## Dependencies
 
-* [Tesseract.js](https://github.com/naptha/tesseract.js) (for text recognition)
+* [Tesseract.js](https://github.com/naptha/tesseract.js) (for text recognition / OCR)
 * [Croppie](https://github.com/Foliotek/Croppie) (for zooming and range selection)
 * [mrz](https://github.com/cheminfo-js/mrz) (for parsing and validating MRZ lines)
 * [exif-js](https://github.com/exif-js/exif-js) (Croppie uses it for proper initial image orientation)
