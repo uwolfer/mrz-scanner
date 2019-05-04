@@ -36,7 +36,7 @@ const TESSERACT_CONFIG = {
 window.EXIF = EXIF; // requied by croppie
 
 window.Tesseract = Tesseract.create({
-  langPath: "https://exteris.github.io/tesseract-mrz/lang/"
+  langPath: "https://cdn.jsdelivr.net/gh/uwolfer/tesseract-mrz@master/lang/"
 });
 
 const progress = document.getElementById("progress");
