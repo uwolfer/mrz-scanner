@@ -6,12 +6,12 @@
   "author": "Urs Wolfer <uwolfer@fwo.ch>",
   "license": "GPLv3",
   "dependencies": {
-    "croppie": "https://github.com/Foliotek/Croppie#959a0a162a2e2c6a1571576855831775864372eb",
+    "croppie": "^2.6.4",
     "exif-js": "^2.3.0",
     "mrz": "^3.1.0"
   },
   "devDependencies": {
-    "cssnano": "^4.1.4",
-    "parcel-plugin-sw-precache": "^1.0.1"
+    "cssnano": "^4.1.10",
+    "parcel-plugin-sw-precache": "^1.1.1"
   }
 }
