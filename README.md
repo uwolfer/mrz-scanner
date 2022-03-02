@@ -21,12 +21,12 @@ The icon has been taken from [Font Awesome](https://github.com/FortAwesome/Font-
 
 You can run this app with parcel:
 ```bash
-parcel index.html
+yarn parcel index.html
 ```
 
 The deployment build can be created with:
 ```bash
-parcel build index.html --public-url ./
+yarn parcel build index.html --public-url ./
 ```
 
 ## Ideas for improvements (Pull Requests are welcome!)

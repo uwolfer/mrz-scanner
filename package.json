@@ -11,7 +11,10 @@
     "mrz": "^3.1.0"
   },
   "devDependencies": {
+    "@parcel/packager-raw-url": "2.3.2",
+    "@parcel/transformer-webmanifest": "^2.3.2",
     "cssnano": "^4.1.10",
+    "parcel": "^2.3.2",
     "parcel-plugin-sw-precache": "^1.1.2"
   }
 }

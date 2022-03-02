@@ -129,6 +129,6 @@ checkArea.addEventListener("click", copyToClipboard);
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
-    .register("../service-worker.js")
+    .register(new URL('../service-worker.js', import.meta.url))
     .then(() => console.log("Service-Worker-Registered"));
 }
