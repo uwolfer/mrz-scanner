@@ -12,9 +12,9 @@
   },
   "devDependencies": {
     "@parcel/packager-raw-url": "2.3.2",
+    "@parcel/service-worker": "^2.3.2",
     "@parcel/transformer-webmanifest": "^2.3.2",
     "cssnano": "^5.1.0",
-    "parcel": "^2.3.2",
-    "parcel-plugin-sw-precache": "^1.1.2"
+    "parcel": "^2.3.2"
   }
 }
