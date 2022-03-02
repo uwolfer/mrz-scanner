@@ -1048,9 +1048,9 @@ mkdirp@^0.5.1, mkdirp@~0.5.1:
     minimist "^1.2.5"
 
 mrz@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/mrz/-/mrz-3.1.0.tgz#55938aed4d862e997fbbb415faad21a7ed451f2b"
-  integrity sha512-SUZ6NjCQGsyqIYHacil3qpHb2mSVeKL61Tm48kegV+whpxYnBoe5ZAaY5HSJzWuMbrPbPZrGnOQ6/Q3Ej17fYQ==
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/mrz/-/mrz-3.1.3.tgz#01805dedbe2fc2023c355b4f54181a721d618fcc"
+  integrity sha512-t9b+/0Q6ME8cTgIr7h13wJaMByYH7IPtr3hRMSJPOvimLrS9GfDXm0+pW72gMNopVu8EV3GOwLq0T5Tn7P5Hdg==
 
 node-releases@^1.1.71:
   version "1.1.72"
